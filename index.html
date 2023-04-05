@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lession 5</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ---------- Header ------------ -->
+    <header class="header">
+      <div class="title">
+        <p>MindX Shop</p>
+      </div>
+      <!-- Menu Responsive -->
+      <div class="toggle-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu">
+        <ul class="content-menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">My Account</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- ---------- End Header ------------ -->
+    <!-- ---------- Main ------------ -->
+    <main>
+      <div class="box-show">
+        <div class="box-search">
+          <div class="search">
+            <input type="text" name="search" placeholder="Search..." /><br />
+            <button type="submit" class="btn-search">Search</button>
+          </div>
+        </div>
+        <div class="box-product">
+          <!-- Item 1 -->
+          <div class="item item1">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 1 -->
+          <!-- Item 2 -->
+          <div class="item">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <!-- Item 3 -->
+          <div class="item">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <!-- Item 4 -->
+          <div class="item">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <!-- Item 5 -->
+          <div class="item">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <!-- Item 6 -->
+          <div class="item">
+            <div class="image">
+              <img class="hambuger" src="./img/buger.png" alt="" />
+            </div>
+            <div class="price">
+              <span class="title">Burger</span><br />
+              <span class="text-price">$4</span>
+            </div>
+          </div>
+          <!-- Item 6 -->
+        </div>
+      </div>
+    </main>
+    <!-- ----------End Main ------------ -->
+
+    <footer class="footer">
+      <p>MindX Technology School</p>
+    </footer>
+
+    <!-- JS -->
+    <script type="text/javascript" src="./js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script>
+      $(".toggle-menu").click(function () {
+        $(".content-menu").slideToggle();
+      });
+    </script>
+    <!-- JS -->
+  </body>
+</html>
