@@ -139,6 +139,9 @@ main {
   }
 }
 @media only screen and (max-width: 600px) {
+  main {
+    margin: 10px;
+  }
   .header {
     display: grid;
     justify-content: inherit;
